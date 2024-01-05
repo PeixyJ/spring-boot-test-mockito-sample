@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tenant-multi-sample
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-boot-test-mockito-sample?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_ROOT_PASSWORD:123456}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
